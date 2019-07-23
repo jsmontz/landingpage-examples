@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html xmlns="https://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Animation</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width" />
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <!-- Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Oxygen:400,700,300' data-norem rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,700' data-norem rel='stylesheet' type='text/css'>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <!-- Custom -->
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="css/animate.css">
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <style>
+      .btn-block {
+        margin-bottom:5px;
+      }
+    </style>
+
+</head>
+
+<body>
+
+<!-- Add animate.css to your links in the head to use animations. Then include the base class of 'animated' and your class of animation. For infinite looping, add the class 'infinite' -->
+
+    <section id="animations">
+      <div class="container">
+        <div class="row">
+          <h1 class="text-center">Animation</h1><h4 class="text-gray light">NOTE: Animation needs to be limited to a maximum of a couple of items and not used on large images. Animation can slow down a computer. Animation is supported in modern browsers; however, it may not always perform predictably, in which case, the static image will still appear. The animation below is the only animation supported.</h4>
+          <div class="col-md-2 col-md-offset-5 text-center mb2">
+            <div id="object"><span class="fa fa-star text-yellow fa-5x"></span></div>
+          </div>
+        </div>
+        <div class="row mb1">
+          <div class="col-md-2 col-xs-6">
+            <a id="slideUpBtn" class="btn btn-block btn-red">Slide Up</a>
+          </div>
+          <div class="col-md-2 col-xs-6">
+            <a id="slideDownBtn" class="btn btn-block btn-red">Slide Down</a>
+          </div>
+          <div class="col-md-2 col-xs-6">
+            <a id="slideLeftBtn" class="btn btn-block btn-red">Slide Left</a>
+          </div>
+          <div class="col-md-2 col-xs-6">
+            <a id="slideRightBtn" class="btn btn-block btn-red">Slide Right</a>
+          </div>
+          <div class="col-md-2 col-xs-6">
+            <a id="lightSpeedInBtn" class="btn btn-block btn-red">Lightspeed In</a>
+          </div>
+          <div class="col-md-2 col-xs-6">
+            <a id="lightSpeedOutBtn" class="btn btn-block btn-red">Lightspeed Out</a>
+          </div>
+        </div>
+        <div class="row mb1">
+          <div class="col-md-2 col-xs-6">
+            <a id="fadeInBtn" class="btn btn-block btn-green">Fade In</a>
+          </div>
+          <div class="col-md-2 col-xs-6">
+            <a id="rollInBtn" class="btn btn-block btn-green">Roll In</a>
+          </div>
+          <div class="col-md-2 col-xs-6">
+            <a id="tadaBtn" class="btn btn-block btn-green">Tada</a>
+          </div>
+          <div class="col-md-2 col-xs-6">
+            <a id="flashBtn" class="btn btn-block btn-green">Flash</a>
+          </div>
+          <div class="col-md-2 col-xs-6">
+            <a id="bounceBtn" class="btn btn-block btn-green">Bounce</a>
+          </div>
+          <div class="col-md-2 col-xs-6">
+            <a id="pulseBtn" class="btn btn-block btn-green">Pulse</a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-2 col-xs-6">
+            <a id="shakeBtn" class="btn btn-block btn-blue">Shake</a>
+          </div>
+          <div class="col-md-2 col-xs-6">
+            <a id="rubberBandBtn" class="btn btn-block btn-blue">Rubber Band</a>
+          </div>
+          <div class="col-md-2 col-xs-6">
+            <a id="swingBtn" class="btn btn-block btn-blue">Swing</a>
+          </div>
+          <div class="col-md-2 col-xs-6">
+            <a id="wobbleBtn" class="btn btn-block btn-blue">Wobble</a>
+          </div>
+          <div class="col-md-2 col-xs-6">
+            <a id="bounceInBtn" class="btn btn-block btn-blue">Bounce In</a>
+          </div>
+          <div class="col-md-2 col-xs-6">
+            <a id="flipBtn" class="btn btn-block btn-blue">Flip</a>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+<!-- Scripts -->
+
+  <!-- JQuery Call -->
+  <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+  <script>
+
+      /*
+      ENTRANCES
+      */
+      $('#slideUpBtn').click(function() {
+        $(this).each(function(){
+            $('#object').removeClass();
+            $('#object').addClass("slideInUp animated");
+          });
+      });
+
+      $('#slideDownBtn').click(function() {
+        $(this).each(function(){
+            $('#object').removeClass();
+            $('#object').addClass("slideInDown animated");
+          });
+      });
+
+      $('#slideLeftBtn').click(function() {
+        $(this).each(function(){
+            $('#object').removeClass();
+            $('#object').addClass("slideInLeft animated");
+          });
+      });
+
+      $('#slideRightBtn').click(function() {
+        $(this).each(function(){
+            $('#object').removeClass();
+            $('#object').addClass("slideInRight animated");
+          });
+      });
+
+      $('#lightSpeedInBtn').click(function() {
+        $(this).each(function(){
+            $('#object').removeClass();
+            $('#object').addClass("lightSpeedIn animated");
+          });
+      });
+
+      $('#lightSpeedOutBtn').click(function() {
+        $(this).each(function(){
+            $('#object').removeClass();
+            $('#object').addClass("lightSpeedOut animated");
+          });
+      });
+
+      $('#fadeInBtn').click(function() {
+        $(this).each(function(){
+            $('#object').removeClass();
+            $('#object').addClass("fadeIn animated");
+          });
+      });
+
+      $('#rollInBtn').click(function() {
+        $(this).each(function(){
+            $('#object').removeClass();
+            $('#object').addClass("rollIn animated");
+          });
+      });
+
+      $('#tadaBtn').click(function() {
+        $(this).each(function(){
+            $('#object').removeClass();
+            $('#object').addClass("tada animated");
+          });
+      });
+
+      $('#flashBtn').click(function() {
+        $(this).each(function(){
+            $('#object').removeClass();
+            $('#object').addClass("flash animated");
+          });
+      });
+
+
+      /*
+      MISC
+      */
+
+      $('#bounceBtn').click(function() {
+        $(this).each(function(){
+            $('#object').removeClass();
+            $('#object').addClass("bounce animated");
+          });
+      });
+
+      $('#pulseBtn').click(function() {
+        $(this).each(function(){
+            $('#object').removeClass();
+            $('#object').addClass("pulse animated");
+          });
+      });
+
+      $('#shakeBtn').click(function() {
+        $(this).each(function(){
+            $('#object').removeClass();
+            $('#object').addClass("shake animated");
+          });
+      });
+
+      $('#rubberBandBtn').click(function() {
+        $(this).each(function(){
+            $('#object').removeClass();
+            $('#object').addClass("rubberBand animated");
+          });
+      });
+
+      $('#swingBtn').click(function() {
+        $(this).each(function(){
+            $('#object').removeClass();
+            $('#object').addClass("swing animated");
+          });
+      });
+
+      $('#wobbleBtn').click(function() {
+        $(this).each(function(){
+            $('#object').removeClass();
+            $('#object').addClass("wobble animated");
+          });
+      });
+
+      $('#bounceInBtn').click(function() {
+        $(this).each(function(){
+            $('#object').removeClass();
+            $('#object').addClass("bounceIn animated");
+          });
+      });
+
+      $('#flipBtn').click(function() {
+        $(this).each(function(){
+            $('#object').removeClass();
+            $('#object').addClass("flip animated");
+          });
+      });
+
+
+  </script>
+
+</body>
+</html>

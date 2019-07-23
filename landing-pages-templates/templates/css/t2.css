@@ -1,0 +1,34 @@
+body {
+  font-family: "Oxygen", "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.bgimg {
+  height:560px;
+  background-image: url('../img/t2-header.jpg');
+  background-position:center;
+  background-size:cover;
+  -moz-background-size:cover;
+  z-index: -10;
+}
+
+.mw-1400px {
+  max-width: 1400px;
+}
+
+.mw-767px {
+  max-width: 767px;
+}
+
+.f250rem {
+  font-size: 2.50rem
+}
+
+.lh-110 {
+  line-height: 110%;
+}
+
+hr {
+  border: none;
+    height: 1px;
+    background-color: #E8EDF1;
+}

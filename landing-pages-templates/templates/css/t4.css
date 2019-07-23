@@ -1,0 +1,48 @@
+body {
+    font-family: "Oxygen", "Helvetica Neue",Helvetica,Arial,sans-serif;
+    background: url('../img/t4_bg.png')center center fixed;
+}
+
+code {
+    font-family: 'Source Code Pro', monospace;
+}
+
+nav {
+  height: 50px;
+}
+
+ul {
+    overflow: hidden;
+}
+
+li a{
+  border-color: #003469;
+}
+
+li a:hover {
+  background-color: #003469;
+}
+
+.bg-navy {
+  background-color: #001f3e;
+}
+
+.hover-underline:hover {
+  text-decoration: underline;
+}
+
+@media screen and (min-width: 754px) {
+    .screen-res {
+        width: 750px;
+    }
+}
+
+@media screen and (min-width: 977px) {
+  .screen-res {
+    width: 970px;
+  }
+}
+
+#nav {
+  z-index: 1;
+}

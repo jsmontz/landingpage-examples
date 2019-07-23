@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Template 7</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width" />
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/tachyons@4.9.1/css/tachyons.min.css"/>
+    <!-- Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Oxygen:400,700,300' data-norem rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,700' data-norem rel='stylesheet' type='text/css'>
+    <!-- Custom -->
+    <link rel='stylesheet' type='text/css' href='css/style.min.css'>
+    <link rel='stylesheet' type='text/css' href='css/t7.css'>
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/owl.carousel.css">
+
+
+</head>
+<body>
+
+  <div class="w-100 screen-res center">
+    <img class="mw-100 db" src="img/t7_header.jpg"/>
+    <div class="tc pv4 ph3 ph0-ns">
+      <!-- <img class="w-65-res w-100 db center" src="https://placehold.it/800x1150&text=Carousel" alt="carousel"> -->
+      <div class="owl-carousel">
+        <div class="relative">
+          <img src="img/t7_slide1.jpg" />
+        </div>
+        <div class="relative">
+          <img src="img/t7_slide2.jpg">
+        </div>
+        <div class="relative">
+          <img src="img/t7_slide2.jpg">
+        </div>
+        <div class="relative">
+          <img src="img/t7_slide2.jpg">
+        </div>
+        <div class="relative">
+          <img src="img/t7_slide2.jpg">
+        </div>
+        <div class="relative">
+          <img src="img/t7_slide2.jpg">
+        </div>
+        <div class="relative">
+          <img src="img/t7_slide2.jpg">
+        </div>
+      </div>
+      <footer class="mt4 f6 gray">
+        <p class="fr">© Company 2014</p>
+      </footer>
+    </div>
+  </div>
+
+  <!-- Scripts to place at bottom of landing page -->
+
+    <!-- Include JQuery -->
+    <script src="https://code.jquery.com/jquery-1.12.3.min.js" integrity="sha256-aaODHAgvwQW1bFOGXMeX+pC4PZIPsvn2h1sArYOhgXQ=" crossorigin="anonymous"></script>
+    <!-- Include owl.carousel script -->
+    <script src="js/owl.carousel.min.js"></script>
+    <!-- Call the carousel function to make the carousel actually work -->
+    <script>
+      $(document).ready(function(){
+        var car = $(".owl-carousel").owlCarousel({
+            items:1, // define how many items display at once
+            loop:true,
+            center:true, // centers items
+            margin:10, // define space between each slide
+            nav:true, // hide/show forward/backward buttons
+              navSpeed: 500, // define nav speed
+              navText: [
+                "<i class='fa fa-chevron-left fa-lg gray-o6'></i>",
+                "<i class='fa fa-chevron-right fa-lg gray-o6'></i>"
+              ],
+              dots:true, // hide/show nav dots
+            autoplay:false, // turn on/off autoplay
+              // autoplayHoverPause:true, // pause on hover during autoplay
+              // autoplaySpeed: 300, // define autoplay speed
+            responsiveClass:false, // define amount of slides that display based on mediaquery breakpoints
+            // responsive:{
+            //     0:{
+            //         items:1,
+            //     },
+            //     480:{
+            //         items:3,
+            //     },
+            //     960:{
+            //         items:5,
+            //     }
+            // }
+        })
+      });
+    </script>
+
+</body>
+</html>

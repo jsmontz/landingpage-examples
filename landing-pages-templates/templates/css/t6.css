@@ -1,0 +1,23 @@
+body {
+  background-image: url('../img/t6-bg.png');
+  font-family: "Oxygen", "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+#logoBar {
+  position:fixed;
+  right:0;
+  left:0;
+  top:0;
+  z-index:1100;
+  background:url('../img/t6-topbg.png') repeat-x;
+  img { margin: 0 auto;
+  }
+}
+
+#content-area {
+  margin-top: 12rem;
+}
+
+a {
+  text-decoration: none;
+}

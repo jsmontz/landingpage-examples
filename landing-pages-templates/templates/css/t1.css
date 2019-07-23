@@ -1,0 +1,26 @@
+/*Template 1 Styles*/
+
+body {
+  font-family: "Oxygen", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+nav {
+  position:fixed;
+  top:0px;
+}
+
+.top_img {
+  background-image: url('../img/t1-7.jpg');
+  height: 500px;
+}
+
+.carousel-container {
+  margin: auto 0;
+  position: absolute;
+  top: 0;
+  left: 0; right: 0;
+}
+
+.zindex10 {
+  z-index: 100;
+}
