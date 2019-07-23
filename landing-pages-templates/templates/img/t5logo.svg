@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.4, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="279.334px" height="82px" viewBox="0 0 279.334 82" enable-background="new 0 0 279.334 82" xml:space="preserve">
+<g>
+	
+		<radialGradient id="SVGID_1_" cx="120.9688" cy="218.1279" r="19.9244" gradientTransform="matrix(1 0 0 1 -81.7715 -195.8711)" gradientUnits="userSpaceOnUse">
+		<stop  offset="0" style="stop-color:#8DC63F"/>
+		<stop  offset="0.2002" style="stop-color:#87C23F"/>
+		<stop  offset="0.418" style="stop-color:#79B941"/>
+		<stop  offset="0.6439" style="stop-color:#5FAC42"/>
+		<stop  offset="0.874" style="stop-color:#349D44"/>
+		<stop  offset="1" style="stop-color:#009444"/>
+	</radialGradient>
+	<polygon fill="url(#SVGID_1_)" points="12.466,31.167 30.287,13.347 57.018,13.347 65.929,31.167 	"/>
+	
+		<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="134.3345" y1="244.8594" x2="134.3345" y2="227.0381" gradientTransform="matrix(1 0 0 1 -81.7715 -195.8711)">
+		<stop  offset="0" style="stop-color:#00AEEF"/>
+		<stop  offset="0.1142" style="stop-color:#00AAEC"/>
+		<stop  offset="0.2384" style="stop-color:#00A4E7"/>
+		<stop  offset="0.3675" style="stop-color:#009ADE"/>
+		<stop  offset="0.4997" style="stop-color:#008CD2"/>
+		<stop  offset="0.6347" style="stop-color:#007AC3"/>
+		<stop  offset="0.7717" style="stop-color:#0064B2"/>
+		<stop  offset="0.9078" style="stop-color:#12499F"/>
+		<stop  offset="1" style="stop-color:#2E3192"/>
+	</linearGradient>
+	<polyline fill="url(#SVGID_2_)" points="65.929,31.167 57.018,48.988 39.197,31.167 	"/>
+	
+		<radialGradient id="SVGID_3_" cx="735.6611" cy="2970.6113" r="19.9246" gradientTransform="matrix(-1 0 0 -1 765.8496 3028.5117)" gradientUnits="userSpaceOnUse">
+		<stop  offset="0" style="stop-color:#EE2A7B"/>
+		<stop  offset="0.1082" style="stop-color:#E72A7C"/>
+		<stop  offset="0.2618" style="stop-color:#DA297E"/>
+		<stop  offset="0.4426" style="stop-color:#C42981"/>
+		<stop  offset="0.644" style="stop-color:#A62A85"/>
+		<stop  offset="0.8598" style="stop-color:#822C8B"/>
+		<stop  offset="1" style="stop-color:#662D91"/>
+	</radialGradient>
+	<polygon fill="url(#SVGID_3_)" points="56.92,48.989 39.097,66.812 12.365,66.812 3.457,48.989 	"/>
+	
+		<linearGradient id="SVGID_4_" gradientUnits="userSpaceOnUse" x1="749.0283" y1="2997.3438" x2="749.0283" y2="2979.5215" gradientTransform="matrix(-1 0 0 -1 765.8496 3028.5117)">
+		<stop  offset="0" style="stop-color:#F7941E"/>
+		<stop  offset="0.1498" style="stop-color:#F78F1F"/>
+		<stop  offset="0.3674" style="stop-color:#F58122"/>
+		<stop  offset="0.6254" style="stop-color:#F26A27"/>
+		<stop  offset="0.7546" style="stop-color:#F15A29"/>
+		<stop  offset="1" style="stop-color:#EF4136"/>
+	</linearGradient>
+	<polyline fill="url(#SVGID_4_)" points="3.457,48.989 12.365,31.167 30.188,48.989 	"/>
+</g>
+<text transform="matrix(1 0 0 1 84.001 55.248)" fill="#F4EFF0" font-family="'AvenirNext-Regular'" font-size="37.2763">CompuLab</text>
+</svg>

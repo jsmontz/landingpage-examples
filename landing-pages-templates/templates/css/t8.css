@@ -1,0 +1,45 @@
+body {
+  background-image: url('../img/t6-topbg.png');
+  font-family: "Oxygen", "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.mw-500px {
+  max-width: 500px;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0;
+  border: hidden;
+}
+
+.h-90px {
+  height: 90px;
+}
+
+/*@media (min-width: 500px) {
+  .mw-500px {
+    max-width: 500px;
+  }
+}*/
+
+h2, p {
+  color: #5a5a5a;
+  padding: 0;
+}
+
+h2 {
+  font-weight: 400;
+  font-size: 1.9em;
+  margin-bottom: -3px;
+}
+
+p{
+  font-family: "Oxygen", "Helvetica Neue",Helvetica,Arial,sans-serif;
+  line-height: 140%;
+}
+.serif {
+  font-family: "Roboto Slab", "Georgia", "Times", "Times New Roman", serif;
+}
+
+a {
+  text-decoration: none;
+}

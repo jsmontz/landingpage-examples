@@ -1,0 +1,36 @@
+body {
+  font-family: "Oxygen", "Helvetica Neue",Helvetica,Arial,sans-serif;
+  text-shadow: 0 1px 3px rgba(0,0,0,.5);
+  background: url('../img/t5_bg.png');
+  background-color: #00447C;
+}
+
+.inner-shadow {
+  -moz-box-shadow: inset 0 0 100px rgba(0,0,0,0.5);
+  -webkit-box-shadow: inset 0 0 100px rgba(0,0,0,0.5);
+  box-shadow: inset 0 0 100px rgba(0,0,0,0.5);
+}
+
+a.button {
+  text-shadow: none;
+}
+
+.hover-underline:hover {
+  text-decoration: underline;
+}
+
+/*Responsive video*/
+.videoWrapper {
+	position: relative;
+	padding-bottom: 52.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+.videoWrapper iframe {
+  border: hidden;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}

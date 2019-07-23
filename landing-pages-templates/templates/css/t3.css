@@ -1,0 +1,41 @@
+body {
+  background-image: url('../img/t3-bg.png');
+  font-family: "Oxygen", "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+code {
+    font-family: 'Source Code Pro', monospace;
+}
+
+.req:after {
+    content: " *";
+    color: #FF4136;
+}
+
+/*form glow on focus*/
+
+.glow-border {
+  outline: none;
+}
+
+.glow-border:focus {
+  box-shadow: 0 0 5px rgba(82, 168, 236, 1);
+  border: 1px solid rgba(82, 168, 236, 1);
+  transition: box-shadow 0.15s ease-in-out;
+  -webkit-transition: box-shadow 0.15s ease-in-out;
+  -moz-transition: box-shadow 0.15s ease-in-out;
+  -ms-transition: box-shadow 0.15s ease-in-out;
+  -o-transition: box-shadow 0.15s ease-in-out;
+}
+
+@media screen and (min-width: 754px) {
+  .screen-res {
+      width: 750px;
+  }
+}
+
+@media screen and (min-width: 977px) {
+  .screen-res {
+    width: 920px;
+  }
+}

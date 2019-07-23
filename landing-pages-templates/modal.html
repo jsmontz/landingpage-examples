@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html xmlns="https://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Template 1</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width" />
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <!-- Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Oxygen:400,700,300' data-norem rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,700' data-norem rel='stylesheet' type='text/css'>
+    <!-- <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet"> -->
+    <!-- Custom -->
+    <link rel="stylesheet" href="css/custom.css">
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+<div class="container">
+  <h1 class="mt2 mb2 text-center">Example Pop-ups (modals)</h1>
+  <div class="row">
+    <div class="col-md-6 col-md-offset-3">
+      <button class="btn btn-green btn-block" data-toggle="modal" data-target="#mapModal">Popup Map</button>
+      <button class="btn btn-blue btn-block" data-toggle="modal" data-target="#disclaimerModal">Disclaimer</button>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- Modal -->
+<!-- map -->
+<div class="modal fade" id="mapModal" tabindex="-1" role="dialog" aria-labelledby="mapModallabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <h4 class="modal-title" id="mapModallabel">Business Location</h4>
+      </div>
+      <div class="modal-body">
+        <iframe width="100%" height="500" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/view?zoom=17&center=41.6035%2C-93.6131&key=AIzaSyApUQ12cLnFQKxfEj3FTUN-sMAQ9cwPkdE"></iframe>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--disclaimer -->
+<div class="modal fade" id="disclaimerModal" tabindex="-1" role="dialog" aria-labelledby="disclaimerlabel" aria-hidden="true">
+  <div class="modal-dialog modal-sm"><!-- small modal-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <h4 class="modal-title" id="disclaimerlabel">Disclaimer</h4>
+      </div>
+      <div class="modal-body">
+        <p class="small">Bacon ipsum dolor sit amet brisket beef jerky bacon doner flank cow frankfurter t-bone shankle ground round venison pig short loin. Turkey chuck meatloaf kielbasa. Shankle brisket ham hock boudin chuck filet mignon pork loin corned beef cow ribeye pancetta. Salami beef ribs drumstick ball tip ground round. Chuck landjaeger strip steak, prosciutto turkey corned beef frankfurter fatback beef. Short loin sausage biltong sirloin bresaola cow frankfurter ham t-bone venison chicken ball tip jowl.</p>
+
+        <p class="bold small">Fatback short loin ball tip ham pancetta drumstick cow turducken pork belly jowl frankfurter strip steak bresaola pork chop sirloin.</p>
+
+        <p class="small">Turkey meatball tongue jerky, ham hock tenderloin pastrami. Leberkas pork belly shankle, rump andouille ham tri-tip cow ball tip chuck jerky meatloaf turducken. Porchetta ham kevin brisket pork belly pastrami bresaola tenderloin ham hock. Capicola fatback biltong ribeye jerky. </p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Scripts -->
+
+  <!-- JQuery Call -->
+  <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+  <!--Google Analytics-->
+
+  <!-- <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-XXXXXXXX-1']);
+    _gaq.push(['_trackPageview']);
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'https://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script> -->
+
+</body>
+</html>
