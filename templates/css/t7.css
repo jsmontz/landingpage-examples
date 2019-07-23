@@ -1,0 +1,28 @@
+body {
+  background-image: url('../img/t7-bg.png');
+  font-family: "Oxygen", "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+@media screen and (min-width: 754px) {
+    .screen-res {
+        width: 720px;
+    }
+}
+
+@media screen and (min-width: 977px) {
+  .screen-res {
+    width: 940px;
+  }
+
+  .w-65-res {
+    width: 65%;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+
+@media screen and (min-width: 1185px) {
+  .screen-res {
+    width: 1140px;
+  }
+}

@@ -1,0 +1,76 @@
+h1, h3, h5, p {
+  transition: font-size .50s linear;
+  -o-transition: font-size .50s linear;
+  -moz-transition: font-size .50s linear;
+  -webkit-transition: font-size .50s linear;
+}
+h1, h3, h5, p {
+	font-style: normal;
+	font-stretch: normal;
+	line-height: normal;
+	letter-spacing: normal;
+	text-align: left;
+}
+h3, h5, p {
+	margin-top: 0px;
+}
+h5, p {
+	font-family: 'Nunito', sans-serif;
+}
+h1, h3 {
+	font-family: 'Open Sans', sans-serif;
+}
+h1 {
+	font-size: 48px;
+	font-weight: 300;
+	color: #144372;
+	margin: 12px 0 12px -3px;
+}
+h3 {
+	font-size: 20px;
+	font-weight: 900;
+	letter-spacing: 1.7px;
+	color: #ffa73d;
+	margin: 0;
+}
+h5 {
+	font-size: 20px;
+	font-weight: 400;
+	color: #3fcaff;
+	margin-bottom: 18px;
+}
+p {
+	font-weight: normal;
+	font-size: 17px;
+	letter-spacing: normal;
+	line-height: 1.41;
+	color: #666666;
+	margin: 0;
+}
+ul p{
+  font-weight: normal;
+  font-size: 17px;
+  letter-spacing: normal;
+  line-height: 1.41;
+  color: #666666;
+  margin: 0;
+}
+@media only screen and (max-width: 900px) {
+    h1 {
+		font-size: 33px;
+	}
+	h3, p {
+		font-size: 12px;
+	}
+	h5 {
+		font-size: 14px;
+	}
+	p {
+		line-height: 1.41;
+	}
+}
+@media only screen and (max-width: 630px) {
+	p {
+		line-height: 1.41;
+	}
+}
